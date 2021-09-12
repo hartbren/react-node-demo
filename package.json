@@ -1,0 +1,21 @@
+{
+  "name": "react-node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests created yet\" && exit 1",
+    "start-dev": "nodemon -L server/index.js",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.17.6"
+  }
+}
