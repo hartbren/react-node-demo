@@ -106,7 +106,7 @@ class Send extends Component {
                         onBlur={this.handleOnBlur.bind(this)}
                     />
 
-                    <span class="form-status"> {this.state.formStatus}</span><br />
+                    <span className="form-status"> {this.state.formStatus}</span><br />
 
                     <button type="submit" className="btn btn__primary btn__lg">
                         Send
